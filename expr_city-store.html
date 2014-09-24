@@ -1,0 +1,137 @@
+<!--#include file="header.html"-->
+<div class="am-container">
+  <!--头部-->
+  <div class="am-g">
+    <div data-am-widget="titlebar" class="am-titlebar am-titlebar-button list_title">
+      <div class="am-titlebar-left">
+        <a href="javascript:history.go(-1)" class="am-icon-reply" title="返回"></a>
+      </div>
+      <h2 class="am-titlebar-title">
+        西安辛家庙体验馆
+      </h2>
+      <div class="am-titlebar-right">
+        <a href="index.html" class="am-icon-home am-icon-sm" title="首页"></a>
+      </div>
+    </div>
+  </div>
+  <!--//头部-->
+  <!--体验馆详情-->
+  <div class="am-g am-padding-sm expr_list">
+    <h1 class="am-text-lg am-margin-bottom-sm">西安辛家庙体验馆</h1>
+    <ul>
+      <!--图片滚动-->
+      <div data-am-widget="slider" class="am-slider am-slider-a1" data-slider-config='{&quot;directionNav&quot;:false}'>
+        <ul class="am-slides main_banner">
+          <li>
+            <img src="images/01.jpg" alt="#" />
+          </li>
+          <li>
+            <img src="images/02.jpg" alt="#"  />
+          </li>
+          <li>
+            <img src="images/03.jpg" alt="#" />
+          </li>
+        </ul>
+      </div>
+      <!--//图片滚动-->
+      <li class="am-margin-top-sm">
+        <dl class="am-padding-sm am-text-sm am-margin-bottom-sm">
+          <dt><strong class="am-text-orange">详细地址:</strong></dt>
+          <dd>西安市北二环辛家庙立交向北100米路西红星美凯龙一楼虎居体验馆</dd>
+          <dt><strong class="am-text-orange">乘车路线:</strong></dt>
+          <dd>2路, 16路, 22路, 27路, 165路, 211路, 230路, 230路区间, 241路, 309路, 315路, 315路区间, 316路</dd>
+          <dt><strong class="am-text-orange">营业时间:</strong></dt>
+          <dd>10：00—18：00(周一至周五)<br/>10：00—18：30(周六，周日)</dd>
+        </dl>
+        <div class="am-g am-text-center am-padding-horizontal-sm am-margin-bottom "><a href="tel:029-89605887" class="am-btn am-btn-danger col-sm-12 am-text-lg"><i class="am-icon-phone"></i>&nbsp;029-89605887</a></div>
+        <div class="am-g map_online am-text-center">
+          <div class="col-sm-6"><a href="javascript:void(0)" res="1" onclick="clickResponse(this)" class="am-block am-padding-vertical-sm model_sendmsg" title="免费发送地址"><i class="am-icon-paper-plane-o am-text-sm"></i>&nbsp;免费发送地址</a></div>
+          <div class="col-sm-6"><a href="expr_city_map.html" res="1" onclick="clickResponse(this)" class="am-block am-padding-vertical-sm" title="地图导航"><i class="am-icon-map-marker"></i>&nbsp;地图导航</a></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!--体验馆详情-->
+  <!--免费发送短信-->
+  <div class="am-modal send_freemsg" tabindex="-1" id="model_msg">
+    <div class="am-modal-dialog">
+      <div class="am-modal-hd am-padding-vertical-sm am-text-lg"><strong>请输入您的手机号</strong></div>
+      <p class="am-padding-bottom-sm am-text-sm am-hide" id="errmsg"><i class="am-icon-times-circle am-text-danger"></i>&nbsp;您的手机号输入错误</p><!--//出错提示-->
+      <p class="am-padding-bottom-sm am-text-sm am-hide" id="successmsg"><i class="am-icon-check-circle am-text-success"></i>&nbsp;短信发送已成功，请注意查收！</p><!--//发送成功提示-->
+      <div class="am-modal-bd am-margin-bottom-sm">
+        <form class="am-form">
+          <input type="tel" class="am-form-field" onclick="showicon(this)" placeholder="请输入您的手机号" />
+        </form>
+      </div>
+      <div class="am-modal-footer">
+        <span class="am-modal-btn modal-cancel  am-block" data-am-modal-cancel>取消</span>
+        <span class="am-modal-btn am-block" data-am-modal-confirm>免费发送</span>
+      </div>
+    </div>
+  </div>
+  <!--//免费发送短信-->
+  <!--商品区域-->
+  <div class="am-g am-padding-horizontal-sm expr_products">
+    <ul>
+      <!--展示商品-->
+      <li class="expr_productx">
+        <h2 class="am-text-default"><a href="list.html" res="1" onclick="clickResponse(this)" class="am-block am-padding-sm" title="#"><i class="am-icon-chevron-right am-fr"></i>展示商品</a></h2>
+        <div class="am-g am-padding-horizontal-sm am-padding-bottom-sm">
+          <!--图片滚动-->
+          <div data-am-widget="slider" class="am-slider am-slider-a1 " data-slider-config='{&quot;directionNav&quot;:false}'>
+            <ul class="am-slides tlr am-text-left">
+              <li>
+                <a href="infor.html" title="#"><img src="images/imgtest01.jpg" alt="#" /></a>
+                <div class="am-slider-desc am-padding-sm am-text-default"><a href="infor.html" title="#"><span class="am-text-orange am-block">￥280000</span>爱乐泉 </a></div>
+              </li>
+              <li>
+                <a href="infor.html" title="#"><img src="images/imgtest02.jpg" alt="#" /></a>
+                <div class="am-slider-desc am-padding-sm am-text-default"><a href="infor.html" title="#"><span class="am-text-orange am-block">￥280000</span>爱乐泉 </a></div>
+              </li>
+              <li>
+                <a href="infor.html" title="#"><img src="images/imgtest03.jpg" alt="#" /></a>
+                <div class="am-slider-desc am-padding-sm am-text-default"><a href="infor.html" title="#"><span class="am-text-orange am-block">￥280000</span>爱乐泉 豪华玻璃+亚克力水晶咖啡色冲浪按摩浴缸含电脑控制面板</a></div>
+              </li>
+              <li>
+                <a href="infor.html" title="#"><img src="images/imgtest04.jpg" alt="#" /></a>
+                <div class="am-slider-desc am-padding-sm am-text-default"><a href="infor.html" title="#"><span class="am-text-orange am-block">￥280000</span>爱乐泉 豪华玻璃+亚克</a></div>
+              </li>
+            </ul>
+          </div>
+          <!--//图片滚动-->
+        </div>
+      </li>
+      <!--//展示商品-->
+      <!--特卖商品-->
+      <li class="expr_productx am-margin-top-sm">
+        <h2 class="am-text-default"><a href="list.html" res="1" onclick="clickResponse(this)" class="am-block am-padding-sm" title="#"><i class="am-icon-chevron-right am-fr"></i>特卖商品</a></h2>
+        <div class="am-g am-padding-horizontal-sm am-padding-bottom-sm">
+          <!--产品详情图片-->
+          <div data-am-widget="slider" class="am-slider am-slider-a1 am-slides_infor" data-slider-config='{&quot;directionNav&quot;:false}'>
+            <ul class="am-slides tlr am-text-left">
+              <li>
+                <a href="infor.html" title="#"><img src="images/imgtest01.jpg" alt="#" /></a>
+                <div class="am-slider-desc am-padding-sm am-text-default"><a href="infor.html" title="#"><span class="am-text-orange am-block">￥280000</span>爱乐泉 豪华玻璃+亚克力水晶咖啡色冲浪按摩浴缸含电脑控制面板</a></div>
+              </li>
+              <li>
+                <a href="infor.html" title="#"><img src="images/imgtest02.jpg" alt="#" /></a>
+                <div class="am-slider-desc am-padding-sm am-text-default"><a href="infor.html" title="#"><span class="am-text-orange am-block">￥280000</span>爱乐泉 豪华玻璃+亚克力水晶咖啡色冲浪按摩浴缸含电脑控制面板</a></div>
+              </li>
+              <li>
+                <a href="infor.html" title="#"><img src="images/imgtest03.jpg" alt="#" /></a>
+                <div class="am-slider-desc am-padding-sm am-text-default"><a href="infor.html" title="#"><span class="am-text-orange am-block">￥280000</span>爱乐泉 豪华玻璃+亚克力水晶咖啡色冲浪按摩浴缸含电脑控制面板</a></div>
+              </li>
+              <li>
+                <a href="infor.html" title="#"><img src="images/imgtest04.jpg" alt="#" /></a>
+                <div class="am-slider-desc am-padding-sm am-text-default"><a href="infor.html" title="#"><span class="am-text-orange am-block">￥280000</span>爱乐泉 豪华玻璃+亚克力水晶咖啡色冲浪按摩浴缸含电脑控制面板</a></div>
+              </li>
+            </ul>
+          </div>
+          <!--//产品详情图片-->
+        </div>
+      </li>
+      <!--//特卖商品-->
+    </ul>
+  </div>
+  <!--//商品区域-->
+<!--#include file="footer.html"-->

@@ -1,0 +1,82 @@
+<!--#include file="header.html"-->
+<div class="am-container">
+  <!--头部-->
+  <div class="am-g">
+    <div data-am-widget="titlebar" class="am-titlebar am-titlebar-button list_title">
+      <div class="am-titlebar-left">
+        <a href="javascript:history.go(-1)" class="am-icon-reply" title="返回"></a>
+      </div>
+      <h2 class="am-titlebar-title">
+        体验馆
+      </h2>
+      <div class="am-titlebar-right">
+        <a href="index.html" class="am-icon-home am-icon-sm" title="首页"></a>
+      </div>
+    </div>
+  </div>
+  <!--//头部-->
+  <!--推荐体验馆-->
+  <div class="am-g expr_main am-text-center am-padding-sm">
+    <table class="am-table am-table-bd am-table-bdrs" width="100%" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><a href="expr_city.html" res="1" onclick="clickResponse(this)" class="am-block" title="#">北京</a></td>
+        <td><a href="expr_city.html" res="1" onclick="clickResponse(this)" class="am-block" title="#">上海</a></td>
+        <td><a href="expr_city.html" res="1" onclick="clickResponse(this)" class="am-block" title="#">广州</a></td>
+        <td><a href="expr_city.html" res="1" onclick="clickResponse(this)" class="am-block" title="#">深圳</a></td>
+        <td><a href="expr_city.html" res="1" onclick="clickResponse(this)" class="am-block" title="#">成都</a></td>
+      </tr>
+      <tr>
+        <td><a href="expr_city.html" res="1" onclick="clickResponse(this)" class="am-block" title="#">西安</a></td>
+        <td><a href="expr_city.html" res="1" onclick="clickResponse(this)" class="am-block" title="#">天津</a></td>
+        <td><a href="expr_city.html" res="1" onclick="clickResponse(this)" class="am-block" title="#">武汉</a></td>
+        <td><a href="expr_city.html" res="1" onclick="clickResponse(this)" class="am-block" title="#">重庆</a></td>
+        <td><a href="expr_city.html" res="1" onclick="clickResponse(this)" class="am-block" title="#">南京</a></td>
+      </tr>
+    </table>
+  </div>
+  <!--//推荐体验馆-->
+  <!--搜索-->
+  <div class="am-g search am-padding-horizontal-sm" id="search">
+    <div class="am-g">
+      <form action="search.html" class="am-form am-input-sm">
+        <div class="col-sm-10"><input type="text" class="am-form-field" placeholder="请输入城市名(如:成都)"></div>
+        <div class="col-sm-2"><input type="submit" class="am-form-field"  value="" /></div>
+      </form>
+    </div>
+  </div>
+  <!--//搜索-->
+  <!--城市-->
+  <div class="am-g search-list am-padding-horizontal-sm">
+    <div class="am-g am-margin-top-sm menu_list">
+      <section data-am-widget="accordion" class="am-accordion am-accordion-gapped"
+      data-accordion-settings='{  }'>
+        <dl class="am-accordion-item am-active">
+          <dt class="am-accordion-title">A</dt>
+          <dd class="am-accordion-content">
+            <ul>
+              <li><a href="expr_city.html" res="1" onclick="clickResponse(this)" title="#">安庆</a><a href="expr_city.html" res="1" onclick="clickResponse(this)" title="#">鞍山</a><a href="expr_city.html" res="1" onclick="clickResponse(this)" title="#">安康</a><a href="expr_city.html" title="#">安阳</a></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="am-accordion-item">
+          <dt class="am-accordion-title">B</dt>
+          <dd class="am-accordion-content">
+            <ul>
+              <li><a href="expr_city.html" res="1" onclick="clickResponse(this)" title="#">北京</a><a href="expr_city.html" res="1" onclick="clickResponse(this)" title="#">包头</a><a href="expr_city.html" res="1" onclick="clickResponse(this)" title="#">保定</a><a href="expr_city.html" title="#">滨州</a></li>
+              <li><a href="expr_city.html" res="1" onclick="clickResponse(this)" title="#">宝鸡</a><a href="expr_city.html" res="1" onclick="clickResponse(this)" title="#">巴彦淖</a></li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="am-accordion-item">
+          <dt class="am-accordion-title">C</dt>
+          <dd class="am-accordion-content">
+            <ul>
+              <li><a href="expr_city.html" res="1" onclick="clickResponse(this)" title="#">成都</a><a href="expr_city.html" res="1" onclick="clickResponse(this)" title="#">长沙</a><a href="expr_city.html" res="1" onclick="clickResponse(this)" title="#">重庆</a><a href="expr_city.html" title="#">长春</a></li>
+            </ul>
+          </dd>
+        </dl>
+      </section>
+    </div>
+  </div>
+  <!--//城市-->
+<!--#include file="footer.html"-->
